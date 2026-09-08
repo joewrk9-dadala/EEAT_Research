@@ -1,0 +1,58 @@
+[
+  {
+    "case_id": "T008",
+    "split": "holdout_candidate",
+    "family": "查核流程缺項",
+    "task_scope": "這段聲稱提供完整查核方法；審查事件對應與核對步驟",
+    "article_excerpt": "只要找到一筆同金額的歷程，看到960點，就完成這次遊戲的核對；其他資料不用看。",
+    "evidence_ids": [
+      "E001",
+      "E002"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T009",
+    "split": "holdout_candidate",
+    "family": "適用證據正例",
+    "task_scope": "審查這一項通用技術事實，不推及個案",
+    "article_excerpt": "依Chrome的Page Lifecycle API文件，頁面在Frozen狀態時，可凍結的任務會暫停。這不表示眼前這次停頓就是該狀態造成。",
+    "evidence_ids": [
+      "E004"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T010",
+    "split": "holdout_candidate",
+    "family": "感官正例",
+    "task_scope": "審查模擬感官細節",
+    "article_excerpt": "以下是虛構場景：提示音響起，我抬眼看見結果頁，卻說不準畫面究竟停了多久。這段不是實際測量。",
+    "evidence_ids": [
+      "E001"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T011",
+    "split": "holdout_candidate",
+    "family": "未知與建議正例",
+    "task_scope": "審查有限資料取得建議",
+    "article_excerpt": "若歷程缺少事件編號，可詢問能否提供對照資訊；若無法提供，就記下目前不能確認哪些紀錄屬於同一次操作。",
+    "evidence_ids": [
+      "E001"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T012",
+    "split": "holdout_candidate",
+    "family": "相互矛盾紀錄",
+    "task_scope": "審查矛盾資料的處理",
+    "article_excerpt": "本測試的兩份虛構明細同稱事件DEMO-Q，卻分別列出返還60與80。因為60出現兩次，所以應採60並刪除80那張。",
+    "evidence_ids": [
+      "F002"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  }
+]

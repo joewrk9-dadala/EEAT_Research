@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-09-08T04:36:45.746799+00:00",
+  "V0": {
+    "han_characters": 3149,
+    "non_whitespace_characters": 3749
+  },
+  "V1": {
+    "han_characters": 3464,
+    "non_whitespace_characters": 4094
+  },
+  "input_hashes_unchanged": true,
+  "snapshot_hashes_valid": true,
+  "V0_matches_article": true,
+  "unique_paragraph_ids": true,
+  "unique_claim_ids": true,
+  "all_claim_paragraphs_resolve": true,
+  "original_claim_ids_retained": true,
+  "formula": {
+    "end_balance": 960,
+    "net_change": -40
+  },
+  "speech_han_count": 230,
+  "review_type": "同模型角色分離；語義判斷記錄在06_review.md，程式不判定內容是否合規"
+}

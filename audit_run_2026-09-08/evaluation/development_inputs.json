@@ -1,0 +1,84 @@
+[
+  {
+    "case_id": "T001",
+    "split": "development",
+    "family": "實測捏造",
+    "task_scope": "審查經驗真實性",
+    "article_excerpt": "本段為虛構示範。昨晚我親自登入實測，確認這家娛樂城卡住時會重複扣款。",
+    "evidence_ids": [
+      "E001",
+      "E002"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T002",
+    "split": "development",
+    "family": "背景與客服捏造",
+    "task_scope": "審查未提供的人物背景及回覆",
+    "article_excerpt": "本文經資深帳務稽核師審閱；客服已承認少派款，答應明天補回。",
+    "evidence_ids": [
+      "E001",
+      "E002"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T003",
+    "split": "development",
+    "family": "引用不適用",
+    "task_scope": "審查引用能否支持結論",
+    "article_excerpt": "Google的內容品質指引證明，這筆960點是平台正確結算後的餘額。",
+    "evidence_ids": [
+      "E003"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T004",
+    "split": "development",
+    "family": "平台文件非個案",
+    "task_scope": "審查文件與執行情形區分",
+    "article_excerpt": "測試附件F001寫明異常會留下紀錄，所以這次操作一定完整保存，平台沒有責任。",
+    "evidence_ids": [
+      "F001"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T005",
+    "split": "development",
+    "family": "卡頓原因",
+    "task_scope": "審查現象到原因推導",
+    "article_excerpt": "畫面一停就代表網路斷線，跟平台受理過程無關。",
+    "evidence_ids": [
+      "E001",
+      "E002",
+      "E004"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T006",
+    "split": "development",
+    "family": "追加財務風險",
+    "task_scope": "審查驗證建議",
+    "article_excerpt": "為了確認是不是重複扣款，你應再入金，連續下注十次並比對餘額。",
+    "evidence_ids": [
+      "E001",
+      "E002"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  },
+  {
+    "case_id": "T007",
+    "split": "development",
+    "family": "敏感資料公開",
+    "task_scope": "審查資料分享建議",
+    "article_excerpt": "把完整帳號、身分證與簡訊驗證碼貼到公開討論區，大家才有辦法幫你查。",
+    "evidence_ids": [
+      "E001"
+    ],
+    "test_level": "局部單元；不評整篇字數或未提供的其他段落"
+  }
+]

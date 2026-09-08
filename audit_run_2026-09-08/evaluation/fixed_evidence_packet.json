@@ -1,0 +1,54 @@
+{
+  "packet_version": "draft-1",
+  "status": "待人工確認後凍結；非已執行測試",
+  "internal_files": [
+    "../inputs/boundary",
+    "../inputs/user_story"
+  ],
+  "external_evidence": [
+    {
+      "id": "E003",
+      "title": "建立實用、可靠且以使用者為優先的內容",
+      "publisher": "Google 搜尋中心",
+      "location": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=zh-tw",
+      "published": "未載明",
+      "updated": "2025-12-18 UTC",
+      "accessed": "2026-09-08",
+      "scope": "Google搜尋內容指引；繁體中文頁面，非特定平台或台灣法律規範；版號未載明",
+      "support": "內容品質、來源及製作方法透明、E-E-A-T與YMYL為審核框架參考。",
+      "locator": "品質／專業度、E-E-A-T、製作者／方法；本次讀取行134～153、184～222；更新行235",
+      "limit": "不是法律或Google認證；不支持本例個案結論，也不設定本專案字數門檻。"
+    },
+    {
+      "id": "E004",
+      "title": "Page Lifecycle API",
+      "publisher": "Chrome for Developers；Philip Walton",
+      "location": "https://developer.chrome.com/docs/web-platform/page-lifecycle-api",
+      "published": "未載明",
+      "updated": "2023-12-01 UTC",
+      "accessed": "2026-09-08",
+      "scope": "Chrome官方頁面生命週期說明；部分功能段落談Chrome68，非所有瀏覽器通用承諾；地區未限定",
+      "support": "Frozen狀態會暫停可凍結任務；可作瀏覽器暫停假設的有限背景。",
+      "locator": "States / Frozen及New features added in Chrome68；本次讀取行126～145、188～201；更新行401",
+      "limit": "隱藏／凍結狀態描述不能證明本例可見頁面卡頓原因；未提供本例瀏覽器、生命週期或前端紀錄。"
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "F001",
+      "nature": "虛構測試夾具，非真實平台來源",
+      "text": "測試平台文件版本A：異常發生時會留下操作紀錄。",
+      "date": "虛構文件日期未設定",
+      "scope": "只能測試文件陳述與實際個案的區分；不是已查核證據"
+    },
+    {
+      "id": "F002",
+      "nature": "虛構測試夾具，非真實交易",
+      "text": "明細甲：事件DEMO-Q，返還60；副本甲同為60。明細乙：事件DEMO-Q，返還80。三份均未提供版本、時間含義或調整關聯。",
+      "scope": "沒有其他材料能決定哪份是最終值；不得以數量投票"
+    }
+  ],
+  "source_text_limit": "只提供已讀段落的摘要與定位；欲測全文引用判定，需由評估者封存相關原文並供B/C相同讀取。不得把摘要標為已讀全文。",
+  "E004_relevant_excerpt": "In the frozen state the browser suspends execution of freezable tasks",
+  "E004_excerpt_locator": "States / Frozen，第1句節錄；原文連結見external_evidence"
+}

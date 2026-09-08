@@ -1,0 +1,54 @@
+[
+  {
+    "id": "E001",
+    "title": "證據邊界",
+    "publisher": "使用者提供，實際作者未提供",
+    "location": "inputs/boundary",
+    "published": "未載明",
+    "updated": "未載明",
+    "accessed": "2026-09-08",
+    "scope": "本專案研究前提，台灣網頁玩家情境；非外部事實",
+    "support": "僅可使用明示模擬；截圖、紀錄與平台文件不能單獨支持完整個案结論。",
+    "locator": "第2節分類表、第3節可描述／不可下結論、第4節待補資料",
+    "limit": "已讀內部資料；不是外部證據。E01～E05為原檔缺資料分類。"
+  },
+  {
+    "id": "E002",
+    "title": "情境設計稿",
+    "publisher": "使用者提供，實際作者未提供",
+    "location": "inputs/user_story",
+    "published": "未載明",
+    "updated": "未載明",
+    "accessed": "2026-09-08",
+    "scope": "匿名虛構手機網頁，單局，2026/08/20；版號未載明",
+    "support": "示例時間、局號、金額、返還定義、介面設定與未知結局。",
+    "locator": "第1～6節；第3節示範表與計算檢查；第7節篇幅",
+    "limit": "內部一致性依據，不證明真實事件、實測效果或平台功能。"
+  },
+  {
+    "id": "E003",
+    "title": "建立實用、可靠且以使用者為優先的內容",
+    "publisher": "Google 搜尋中心",
+    "location": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=zh-tw",
+    "published": "未載明",
+    "updated": "2025-12-18 UTC",
+    "accessed": "2026-09-08",
+    "scope": "Google搜尋內容指引；繁體中文頁面，非特定平台或台灣法律規範；版號未載明",
+    "support": "內容品質、來源及製作方法透明、E-E-A-T與YMYL為審核框架參考。",
+    "locator": "品質／專業度、E-E-A-T、製作者／方法；本次讀取行134～153、184～222；更新行235",
+    "limit": "不是法律或Google認證；不支持本例個案結論，也不設定本專案字數門檻。"
+  },
+  {
+    "id": "E004",
+    "title": "Page Lifecycle API",
+    "publisher": "Chrome for Developers；Philip Walton",
+    "location": "https://developer.chrome.com/docs/web-platform/page-lifecycle-api",
+    "published": "未載明",
+    "updated": "2023-12-01 UTC",
+    "accessed": "2026-09-08",
+    "scope": "Chrome官方頁面生命週期說明；部分功能段落談Chrome68，非所有瀏覽器通用承諾；地區未限定",
+    "support": "Frozen狀態會暫停可凍結任務；可作瀏覽器暫停假設的有限背景。",
+    "locator": "States / Frozen及New features added in Chrome68；本次讀取行126～145、188～201；更新行401",
+    "limit": "隱藏／凍結狀態描述不能證明本例可見頁面卡頓原因；未提供本例瀏覽器、生命週期或前端紀錄。"
+  }
+]
